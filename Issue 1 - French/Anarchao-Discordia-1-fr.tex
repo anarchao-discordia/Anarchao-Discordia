@@ -1,0 +1,150 @@
+\documentclass[12pt, onecolumn, letterpaper, oneside]{book}
+
+\usepackage{authblk}
+\usepackage[autostyle]{csquotes}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[sc]{titlesec}
+\usepackage{titlepic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[square,numbers,sectionbib]{natbib}
+\usepackage[sectionbib]{chapterbib}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+
+\usepackage{tikz}
+\usepackage{rotating}
+
+\usepackage{wasysym}
+
+\titleformat{\chapter}[display]
+  {\rmfamily\scshape\bfseries}{}{0pt}{\Large}
+\titleformat{\section}[display]
+  {\scshape}{}{0pt}{\large}
+  
+ \usepackage{scrextend}
+ \interfootnotelinepenalty=10000
+
+\usepackage{fancyvrb}
+\usepackage{suffix}
+
+\newcommand\chapterauthor[1]{\authortoc{#1}\printchapterauthor{#1}}
+\WithSuffix\newcommand\chapterauthor*[1]{\printchapterauthor{#1}}
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{}{\uppercase{\itshape #1}}}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+ 
+ \renewcommand\thefigure{\arabic{figure}}
+
+\makeatletter
+\newcommand{\printchapterauthor}[1]{%
+  {\parindent0pt\vspace*{-25pt}%
+  \linespread{1.1}\large\scshape#1%
+  \par\nobreak\vspace*{35pt}}
+  \@afterheading%
+}
+\newcommand{\authortoc}[1]{%
+  \addtocontents{toc}{\vskip-10pt}%
+  \addtocontents{toc}{%
+    \protect\contentsline{chapter}%
+    {\hskip1.3em\mdseries\scshape\protect\scriptsize#1}{}{}}
+  \addtocontents{toc}{\vskip5pt}%
+}
+\makeatother
+
+\title{Anarchao Discordia\\
+		\vspace{1\baselineskip}
+		\large{Vol. I}
+		}
+\date{Juillet, 2018\\
+		 Confusion, YOLD 3184}
+\author{Editeur: Griffensteed the 5$^\text{lth}$\\
+			'Patafizikhood of Eris Esoteric\\}
+\titlepic{\includegraphics[scale=0.3]{./img/poee.png}}
+
+
+\fancyfoot[L]{Confusion, YOLD 3184}
+\fancyfoot[R]{Anarchao Discordia}
+
+%\setlength\parindent{0pt}
+    \setlength{\columnsep}{1cm}
+
+\begin{document}
+\sloppy
+ \renewcommand{\contentsname}{Sommaire}
+
+\maketitle
+
+\tableofcontents
+
+\chapter*{Notes}
+\begin{verbatim}
+La (re)découverte de l'anarchie par Discordia.
+La (re)découverte de Discordia par l'anarchie.        
+\end{verbatim}
+
+\begin{center}
+\emph{Dysnomie (Anarchie), Fille d'Eris.}\\
+\end{center}
+
+Le Discordianisme et l'Anarchie m'ont toujours semblé intrinsèquement liés par leurs origines, leurs idéologies, leurs auteurs, leurs vecteurs et leurs méthodes. Après avoir cherché à gauche à droite, il me parut que depuis 1990, avec la fin de \emph{No Governor}, édité par Robert Shea, aucune autre publication n'a réuni cette mère et cette fille, et j'ai senti le besoin de raviver cette flamme.\\
+J'ai ressenti le besoin de (re)découvrir les anciens et les nouveaux penseurs anarchistes et discordiens et de regrouper leurs pensées et opinions ; de voir comment les anciennes idées des différentes parties de notre monde tiennent toujours fermement dans notre société actuelle ; d'exprimer de nouvelles idées sur les nouvelles opportunités et les nouveaux dangers qui surgissent et auxquels les anarchistes et les discordiens doivent se préparer.\\
+
+\begin{center}
+Anarchao Discordia\\
+\end{center}
+
+Ce premier volume d'\emph{Anarchao Discordia} se concentre principalement sur l'établissement des bases de ce à quoi les lecteurs pourront s'attendre à l'avenir. Il vise également à ``amorcer la pompe" avec quelques grands articles d'auteurs célèbres, posant les fondations de l'anarcho-discordianisme, comme Robert Anton Wilson \& Robert Shea (p.4) et Gregory Hill (p.23) ; une excellente interview de Cornelius Castoriadis (traduit du français) sur la liberté et l'insignifiance de la politique moderne (p.25), considérée par Castoriadis comme une ``bouteille à la mer" pour les générations futures (nous) ; un manifeste proto-discordien sur la musique de John Cage (p.32) ; et un article, par moi-même, sur une ``théorie mathématique du complot" appliquée à la séparation des pouvoirs dans les démocraties représentatives (p.13).\\
+
+Si vous vous sentez intéressé par ce projet, comme pour \emph{No Governor}, Anarchao Discordia a besoin de trois formes d'aide :
+\begin{enumerate}
+\item Il a besoin d'être lu. Les mots, les pensées et les idées ne peuvent vivre que s'ils atteignent les esprits. Je publie \emph{Anarchao Discordia} sous une licence GNU GPLv3, donc, s'il vous plaît, sentez-vous libre de le partager et distribuer comme vous le souhaitez.
+\item Il a besoin d'articles. Si vous souhaitez exprimer votre opinion et vos idées sur la société, votre expérience, vos stratégies et solutions pour résoudre les fléaux des temps modernes, vos points de vue sur l'actualité, etc. avec un point de vue anarchiste et/ou discordien, veuillez nous contacter.
+\item Il a besoin de commentaires et de critiques. Encore une fois, si vous voulez exprimer votre opinion sur cette revue, ce numéro ou les articles, n'hésitez pas à nous contacter.
+\end{enumerate}
+
+Mon but, si faisable, consisterait à publier un numéro de \emph{Anarchao Discordia} pour chaque saison discordienne. On verra comment ça se passe, mais en apprenant de \emph{No Governor}, ça peut apparaître difficile. Évidemment, j'ai mes propres biais en tant qu'anarcho-discordien, je me sens personnellement fortement attiré par les idées anarchistes de gauche et je ferai de mon mieux pour être conscient de ma propre grille de perception lorsque je ferai des jugements éditoriaux.
+
+Vous pouvez nous contacter par email à : anarchao--at--discordia--dot--fr.
+
+\par\begin{flushright} --- Griffensteed the 5$^\text{lth}$\\ Episkopos of the 'Patafizikhood of Eris Esoteric\end{flushright}
+
+\include{./anarchism_and_crime-fr}
+
+\include{./coalitions_and_separation_of_powers-fr}
+
+\include{./not_an_anarchist-fr}
+
+\include{./rise_of_insignificance-fr}
+
+\include{./manifesto-fr}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
